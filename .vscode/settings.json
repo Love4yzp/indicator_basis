@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "view_chart.h": "c",
+        "indicator_wifi.h": "c",
+        "indicator_view.h": "c",
+        "esp_wifi.h": "c"
+    }
+}

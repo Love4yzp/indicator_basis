@@ -5,7 +5,7 @@ bin
 *.pyc
 sdkconfig
 sdkconfig.old
-# dependencies.lock
+dependencies.lock
 # emacs
 .dir-locals.el
 
@@ -21,8 +21,8 @@ sdkconfig.old
 .DS_Store
 
 # VS Code Settings
-.vscode/*
-!.vscode/c_cpp_properties.json
+.vscode/
+
 # Clion Settings
 *.idea/
 
@@ -30,3 +30,9 @@ sdkconfig.old
 *cmake-build-debug
 
 *.tmp
+
+#tools ignored
+tools/flash_firmware
+
+#SqureLine Studio
+*.zip

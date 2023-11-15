@@ -364,7 +364,7 @@ static void __view_event_handler(void* handler_args, esp_event_base_t base, int3
             
             __wifi_st_get(&st);
 
-            list.is_connect = st.is_connected;
+            list.is_connect = st.is_connected;  // grab the current connection status
             if( st.is_connected ) {
                 strlcpy((char *)list.connect.ssid, (char *)st.ssid, sizeof(list.connect.ssid));
                 list.connect.auth_mode =false;

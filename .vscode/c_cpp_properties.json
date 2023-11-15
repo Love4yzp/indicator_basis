@@ -19,15 +19,13 @@
                 "${workspaceFolder}/components/iot_button",
                 "${workspaceFolder}/components/lora",
                 "${workspaceFolder}/components/lvgl/",
-                "${workspaceFolder}/components/lvgl/demos/**",
-                "${workspaceFolder}/components/lvgl/examples/**",
                 "${workspaceFolder}/components/lvgl/src",
                 "${workspaceFolder}/components/lvgl/src/**",
                 "${workspaceFolder}/main/view",
                 "${workspaceFolder}/main/model",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/components/bsp/include"
-
+                "${workspaceFolder}/components/bsp/include",
+                "${workspaceFolder}/main/view/ui/"
             ],
             "browse": {
                 "path": [
@@ -46,14 +44,17 @@
                     "${workspaceFolder}/components/iot_button",
                     "${workspaceFolder}/components/lora",
                     "${workspaceFolder}/components/lvgl/",
-                    "${workspaceFolder}/components/lvgl/demos/**",
-                    "${workspaceFolder}/components/lvgl/examples/**",
                     "${workspaceFolder}/components/lvgl/src",
                     "${workspaceFolder}/components/lvgl/src/**",
                     "${workspaceFolder}/main/view",
                     "${workspaceFolder}/main/model",
                     "${workspaceFolder}/main/controller",
                     "${workspaceFolder}/main",
+                    "${workspaceFolder}/main/view/ui",
+                    "${workspaceFolder}/main/view/ui/screens",
+                    "${workspaceFolder}/main/view/ui/components",
+                    "${workspaceFolder}/main/view/ui/fonts",
+                    "${workspaceFolder}/main/view/ui/images",
                     "${workspaceFolder}/components/bsp/include"
                 ],
                 "limitSymbolsToIncludedHeaders": false
@@ -84,8 +85,9 @@
                 "${workspaceFolder}/main/view",
                 "${workspaceFolder}/main/model",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/components/bsp/include"
-
+                "${workspaceFolder}/components/bsp/include",
+                "${workspaceFolder}/main/view/ui",
+                "${workspaceFolder}/main/view/ui/**"
             ],
             "browse": {
                 "path": [
@@ -112,7 +114,9 @@
                     "${workspaceFolder}/main/model",
                     "${workspaceFolder}/main/controller",
                     "${workspaceFolder}/main",
-                    "${workspaceFolder}/components/bsp/include"
+                    "${workspaceFolder}/components/bsp/include",
+                    "${workspaceFolder}/main/view/ui",
+                    "${workspaceFolder}/main/view/ui/**"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }
@@ -142,7 +146,9 @@
                 "${workspaceFolder}/main/view",
                 "${workspaceFolder}/main/model",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/components/bsp/include"
+                "${workspaceFolder}/components/bsp/include",
+                "${workspaceFolder}/main/view/ui",
+                "${workspaceFolder}/main/view/ui/**"
             ],
             "browse": {
                 "path": [
@@ -169,7 +175,9 @@
                     "${workspaceFolder}/main/model",
                     "${workspaceFolder}/main/controller",
                     "${workspaceFolder}/main",
-                    "${workspaceFolder}/components/bsp/include"
+                    "${workspaceFolder}/components/bsp/include",
+                    "${workspaceFolder}/main/view/ui",
+                    "${workspaceFolder}/main/view/ui/**"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }
